@@ -1,0 +1,34 @@
+header{
+width:40%;
+margin:auto;
+height:auto;
+border:5px rgb(17, 234, 17) solid;
+background-color: #d66706;
+}
+
+nav{
+display:flex;
+flex-direction:row;
+justify-content:space-around ;
+}
+
+.p{background-color:bleu;
+ color:rgb(45, 151, 75);
+}
+
+section{
+width:33%;
+margin:auto;
+height: 500px;
+border:5px rgb(151, 151, 203) solid;
+background-color:lightgrey;
+}
+
+section{
+width:33%;
+margin:
+margin:auto;
+height: 300px; 
+border: 5px;
+background-color::red;
+}

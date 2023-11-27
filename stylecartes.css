@@ -1,0 +1,131 @@
+body {
+         width: 100%;
+         height: 76em;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content:center;
+       }
+header{
+              width:100%;
+              height:15%;
+              margin:auto;
+              border:5px rgb(157, 208, 157);
+              background-color: #3f49b7;
+              display:flex;
+              flex-direction:row;
+              flex-wrap:nowrap;
+              }
+main {
+         width: 100%;
+         height:auto;
+         display: flex;
+         justify-content:center;
+         align-content: space-evenly;
+         background-color:rgb(107, 134, 215) ;
+       }
+section {
+         width: 100%;
+         height:43em;
+         background-color: rgb(107,134, 215);
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-content: space-evenly;
+         flex-direction: row;
+         margin-top: 11%;
+         margin-bottom: 5%;
+       }
+article{
+         height: 21em;
+         width: 29em;
+         border-radius:0px 0px 0px 60px;
+         position:relative;
+       }
+.carteune{
+         background-image: url(https://www.afec.fr/app/uploads/2020/10/AdobeStock_69070473-740x400.jpg); 
+       }
+.cartedeux{
+         background-image: url(https://www.afec.fr/app/uploads/2020/10/AdobeStock_208225754-740x400.jpg);
+       }
+.cartetrois{
+        background-image: url(https://www.afec.fr/app/uploads/2020/10/iStock-908764892-740x400.jpg);
+       }
+.cartequatre{
+         background-image: url(https://www.afec.fr/app/uploads/2020/10/AdobeStock_317358164-ConvertImage-740x400.jpg);
+       }
+.cartecinq{
+         background-image: url(https://www.afec.fr/app/uploads/2020/11/AdobeStock_208225761-740x400.jpg);
+       }
+.cartesix{
+         background-image: url(https://www.afec.fr/app/uploads/2021/05/AdobeStock_332857577-740x400.jpg);
+       }
+article:hover{
+         background-color:rgb(105, 105, 168) ;
+         box-shadow:0 0 5px 10px gray;
+       }
+fieldset{
+         background-color:rgb(164, 15, 15);
+         height:10rem ;
+         width:100%;
+         border:#d66706;
+         margin:auto;
+         display:flex;
+       }
+article:nth-child(odd){
+         height: 17rem;
+       }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+main {
+         background-color: black;
+         height:60em ;
+         width:100% ;
+       }
+section {
+         height:43em;
+         width:100%;
+       }
+article {
+         height: 23em;
+         width:27em;
+       }
+img{
+         height: 193px;
+         width: 24rem; 
+         border-radius: 0 0 0 40px;
+         background-size: cover;
+         background-repeat: no-repeat
+        } 
+       }
+@media only screenand and(min-width:700px) and(max-width: 1100px) {
+main {
+       background-color: rgb(183, 0, 255);
+         height: 60em;
+         width: 100%;
+        }
+section {
+         height: 79em;
+         width:100%;
+        }
+article {
+         height: 30em;
+         width:100%;
+       }
+img{
+         height: 193px;
+         width: 24rem; 
+         border-radius: 0 0 0 40px;
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+       }
+article::after{position: relative;
+               display:block;
+               background-color: black;
+               bottom:5rem ;
+               opacity: 0.35;
+               z-index: index 99;
+              
+       }
+
+    
+     

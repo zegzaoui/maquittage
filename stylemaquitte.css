@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+   }
+header{
+    width:100%;
+    margin:auto;
+    height:213PX;
+    border:5px rgb(157, 208, 157) solid;
+    background-color: #86d606;
+    }
+nav{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around ;
+        } 
+        .p{background-color:bleu;
+            color:rgb(45, 151, 75);
+    }
+section{
+    width:100%;
+    margin:auto;
+    height: 70px;
+    border:5px rgb(151, 151, 203) ;
+    background-color:lightgrey;
+    }
+main{
+    background-color: wheat;
+    width:100%;
+    height:800px;
+    display:flex;   
+    justify-content:space-around ;
+    flex-wrap: wrap;
+      }
+.one{
+
+    /* background-color: rgb(90, 213,129); */
+    width: 54%;
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 28px;
+   }
+.two{
+
+    /* background-color:rgb(90, 213, 129); */
+    width: 25%;
+   height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+   padding: 24px;
+   }
+main{
+    background-color: wheat;
+    width:100%;
+    height:800px;
+    display:flex;   
+    justify-content:space-around ;
+    flex-wrap: wrap;
+   }
+/* article { 
+    background-color: rgb(181, 44, 44)99, 107, 107;
+    height: 20px;
+    width: 26%;
+     } */
+    .un{ 
+    background-color: rgb(61, 125, 147);
+    height:58px;
+    width:26%;
+     }
+    .deux{
+    background-color: rgb(61,125, 147);
+    height:61px;
+     width: 51%;
+     }
+
+img{
+    height:5rem ;
+    width: 65rem; 
+     }
+fieldset{
+    background-color:rgb(211, 112, 112);
+    height:10rem ;
+    width:100%;
+    border:#b78d68;
+    margin:auto;
+    display:flex;
+    }
+footer {
+    flex-shrink:0;
+    background-color: rgb(85, 145, 99);
+    width:100%;
+    height:10rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    }
