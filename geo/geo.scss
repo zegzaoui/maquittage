@@ -1,0 +1,161 @@
+$color-deep: darkblue;
+$color-light:yellow;
+$color-portugal:orange;
+$color-forst:mediumspringgreen;
+$font-style: Arial, Helvetica, sans-serif;
+
+@mixin card{
+    border: 2px solid $color-portugal;
+   width: 20%;
+   height: 20rem;
+   border-radius: 20px;
+   }
+
+body{
+    margin: 0;
+}
+header{
+        width:100%;
+        margin:auto;
+        height:100PX;
+        border:5px rgb(157, 208, 157) solid;
+        background-color: #d66706;
+        }
+nav{
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around ;
+            } 
+            .p{background-color:bleu;
+                color:rgb(45, 151, 75);
+        }
+video{
+            height: 80px;
+            width: 26%;
+        }
+section{
+                width:100%;
+                margin:auto;
+                height: 70px;
+                border:5px rgb(151, 151, 203) ;
+                background-color:lightgrey;
+            }
+main{
+             background-color: wheat;
+             width:100%;
+             height:800px;
+             display:flex;   
+             justify-content:space-around ;
+             flex-wrap: wrap;
+            }
+
+.PARIS{
+           background-color: rgb(90, 213,129);
+           width: 60%;
+            height: 700px;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           padding: 28px;
+    }
+
+.NICE{
+          background-color:rgb(90, 213, 129);
+           width: 25%;
+          height: 700px;
+          display: flex;
+          flex-wrap: wrap;
+           justify-content: space-around;
+          padding: 24px;
+    }
+
+article { 
+        background-color: white;
+        height: 80px;
+        width: 26%;
+    }
+    .deux{
+        height:80px;
+        width: 40%;
+    }
+    .deux{background-image:url(https://www.sofinco.fr/files/live/sites/sofinco/files/Refonte/Produit/Projet/Vacances/vacance_visual_projet_desktop_2def.JPG);
+    }
+    .vacance {
+        background-image:url(https://t4.ftcdn.net/jpg/01/88/68/77/360_F_188687777_CfJvDpcRu9BvZjmNGTwtprfCWNhlRvqU.jpg)
+    }
+    img{
+        height:5rem ;
+        width: 65rem; 
+      }
+    
+    fieldset{
+        background-color:rgb(211, 112, 112);
+        height:10rem ;
+        width:100%;
+        border:#d66706;
+        margin:auto;
+        display:flex;
+    }
+    input{
+        width:15% ;
+    }
+
+    video{
+        width:100%;
+        height:15rem;
+    }
+        
+footer {
+        flex-shrink:0;
+        background-color: #05cf34;
+        width:100%;
+        height:15rem;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+
+@media only screen and (min-width: 950px) and (max-width:1280px) {
+.PARIS{
+        background-color: rgb(41, 31, 184);
+        width: 60%;
+        height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 28px;
+        }
+.NICE{
+            background-color:rgb(41, 31, 184);
+            width: 25%;
+            height: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 24px;
+            }
+        }
+@media only screen and (min-width: 720px) and (max-width:920px){
+.PARIS{
+                background-color: rgb(176, 31, 184);
+                width: 60%;
+                height: 700px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding: 28px;
+                }
+.NICE{
+                    background-color:rgb(176, 31, 184);
+                    width: 25%;
+                    height: 700px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    padding: 24px;
+                    }
+                 }
+
+ .project-prev{
+    @include card
+    }

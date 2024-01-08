@@ -1,0 +1,79 @@
+$color-mint:green;
+$myfont-one:Arial, Helvetica, sans-serif;
+$color-crean: darkblue;
+
+@mixin mycand{
+           width:5em ;
+           height:5em ;
+           color:$color-mint;
+           border:solid 2px;
+}
+@mixin transformation{
+          transition-property: transform;
+          transition-duration: 1000ms;
+  &:hover {
+          transform: scale(1.15);
+  }
+}
+body {
+         width: 99%;
+         height: 98em;
+         background-color: black;
+     }
+header{
+         width:100%;
+         height:10%;
+          margin:auto;
+         border:5px rgb(157, 208, 157);
+           background-color:rgb(14, 110, 236);
+         display:flex;
+         flex-direction:row;
+         flex-wrap:nowrap;
+ }
+aside{
+         text-align:end;
+        width:40%;
+       color:white;
+        border:5px rgb(157, 208, 157);
+        background-color: rgb(109, 109, 171);
+      }
+.header_heading{
+         height:50px ;
+         width: 100%;
+ }     
+.nav_link-active{
+          height:50px ;
+          width: 100%;
+ }
+section {
+        width: 100%;
+       height:40em;
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-around;
+       align-content:center;
+       flex-direction: row;
+       margin-top: 11%;
+       margin-bottom: 5%;
+   }
+   
+article{
+       height: 11em;
+        width: 20em;
+         position:relative;
+         flex-direction: row-reverse;
+     @include mycand;
+     @include transformation;
+   }
+
+img{ 
+       height: 122px;
+       width: 20rem; 
+       background-size: cover;
+       background-repeat: no-repeat;
+       flex-wrap: nowrap;
+       background-color:aqua;
+  }
+
+

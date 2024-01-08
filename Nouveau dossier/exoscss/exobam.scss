@@ -1,0 +1,92 @@
+$color-deep: darkblue;
+$color-light:yellow;
+$color-portugal:orange;
+$color-forst:mediumspringgreen;
+$font-style: Arial, Helvetica, sans-serif;
+
+@mixin card{
+ border: 2px solid $color-portugal;
+width: 20%;
+height: 20rem;
+border-radius: 20px;
+}
+
+
+body{
+margin: 0;
+background-color: $color-deep;
+font-size: 1.5rem;
+font-family:$font-style;
+}
+
+main{
+ width: 100%;
+height: 120rem;   
+background-color: $color-deep;
+display: flex;
+flex-direction: column;
+align-items:center;
+}
+
+/* :::::fin des blocs Parent  :::::::::::: */
+
+
+/* ::::::::::  Header et items  ::::::::: */
+header{
+width: 100%;
+height: 3rem;
+background-color: $color-forst;
+display: flex;
+justify-content: space-between;
+padding: 3rem;
+
+.header__heading{
+    width: 25rem;
+}
+.nav{
+width:50rem;
+display: flex;
+justify-content: flex-end;
+}
+.nav__link--active{
+width: 12rem;
+}
+.nav__link{
+width: 12rem;
+color: $color-light;
+}
+
+}
+
+/* :::::::::::::: end o Header ::::::::::: */
+
+.content{
+width: 88%;
+height: 10rem;
+display: flex;
+justify-content: flex-end;
+
+.quote{
+    background-color: $color-deep;
+    width: 65%;
+    height: 7rem;
+    border: 2px solid $color-light;
+    color: aliceblue;
+    margin: 2rem;
+    text-align: end;
+}
+
+}
+.gridContent{
+width: 85%;
+height: 75rem;
+border: 2px solid green;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 2rem;
+
+.project-prev{
+@include card
+}
+}
